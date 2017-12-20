@@ -8,7 +8,7 @@ This summarizer utilize the tfidf-technique and expands by using a stemmer and a
 This summarizer can actually utilize two different scoring methods, just swap the scoring-method used at the end of "summarize"-method to the other and try! 
 
 ## How to run
-You need to download GloVe (6B tokens version, Wikipedia 2014 + Gigaword 5) from https://nlp.stanford.edu/projects/glove/ and put the glove.6B.300d.txt-file in the subfolder glove.
+You need to download GloVe (6B tokens version, Wikipedia 2014 + Gigaword 5) from https://nlp.stanford.edu/projects/glove/ (direct link to zip: http://nlp.stanford.edu/data/glove.6B.zip) and put the glove.6B.300d.txt-file in the subfolder glove.
 
 Then run ./convertGlove.sh from glove/
 
